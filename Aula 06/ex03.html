@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <title>Meu Primeiro programa...</title>
     <style>
-        body{
+        body{ /*Comentário*/
             background-color: #ffff00;
             color: #000000;
             font: normal 16pt Arial;
@@ -14,13 +14,15 @@
 </style>
 </head>
     <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> <!--Comentário-->
     <p>Já me livrei da maldição!</p>
 
     <script>
-       window.alert('Minha primeira mensagem...') //Alerta
-       window.confirm('Está gostando de JavaScript?') //Ok ou Cancelar
-       window.prompt('Qual é o seu nome?')  //Vai perguntar o nome
+    var n1 = Number (window.prompt ('Digite um número!'))
+    var n2 = Number (window.prompt ('Digite outro número!'))
+    var s = n1 + n2
+    window.alert (`A soma entre ${n1} e ${n2} é igual a ${s}`)
+
 </script>
 </body>
 </html>
